@@ -26,14 +26,14 @@ public class EmployeeDAO {
 
         // Create the employee data to insert
         int id = 11;
-        String ename = "John";
-        String city = "New York";
+        String ename = "Rubasri";
+        String city = "Hyderabad";
         String dept = "IT";
         String designation = "Developer";
-        java.sql.Date doj = java.sql.Date.valueOf("2022-01-01");
-        java.sql.Date dob = java.sql.Date.valueOf("1990-01-01");
-        double salary = 60000;
-        String address = "123 Elm Street";
+        java.sql.Date doj = java.sql.Date.valueOf("2003-11-22");
+        java.sql.Date dob = java.sql.Date.valueOf("2025-09-01");
+        double salary = 90000;
+        String address = "5/60,Dindigul";
 
         // Read the image file
         try (InputStream is = new FileInputStream("C:\\Users\\vineh\\Downloads\\Background image.jpg")) {
